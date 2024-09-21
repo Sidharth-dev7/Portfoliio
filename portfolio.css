@@ -1,0 +1,41 @@
+@font-face 
+{
+    font-family: 'Questrial';
+    src: url(Fonts/Questrial/Questrial-Regular.ttf);
+}
+@font-face {
+    font-family: 'parisienne';
+    src: url(Fonts/Parisienne/Parisienne-Regular.ttf);
+}
+
+.body
+{
+    background-image: linear-gradient(#264512,#2c6004);
+    height: 24cm;
+}
+
+.navigation
+{
+    font-family: 'Questrial';
+    font-size: 25px;
+    position: relative;
+    right: 3cm;
+    top: 1cm;
+    color: white;
+    text-decoration: none;
+    
+}
+.navigation:hover
+{
+    color: #1ac133;
+}
+.port
+{
+    font-family: 'parisienne';
+    font-size: 25px;
+    position: relative;
+    left: 4cm;
+    top: 1cm;
+    color: #1ac133;
+    
+}
