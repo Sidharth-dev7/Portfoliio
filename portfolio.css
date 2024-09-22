@@ -19,7 +19,8 @@
 .body
 {
     background-image: linear-gradient(#1a2f0c,#2c6004);
-    height: 24cm;
+    height: 40cm;
+    overflow-x: hidden;
 }
 
 .navigation
@@ -42,7 +43,7 @@
     font-family: 'parisienne';
     font-size: 25px;
     position: relative;
-    left: 4cm;
+    left: 2cm;
     top: 1cm;
     color: #1ac133;
     
@@ -53,7 +54,7 @@
     font-size: large;
     position: relative;
     top: 6cm;
-    left: 3cm;
+    left: 2cm;
     color: white
 }
 .home h1{
@@ -80,13 +81,25 @@
     background-color: #1ac133;
     color: #1a2f0c;
 }
+.resume 
+{
+    text-decoration: none;
+    color: #1ac133;
+    text-decoration: none;
+}
+ .resume:hover
+{
+   background-color: #1ac133; 
+   color: #1a2f0c;
+   
+}
 .icons
 {
     position: relative;
     top: 22px;
     display: flex;
     justify-content: space-between;
-    width: 200px;
+    width: 150px;
 }
 .icons a
 {
@@ -107,3 +120,25 @@
     background-color: #1ac133;
     color: #1a2f0c;
 }
+.img-box
+{
+    width: 45%;
+    height: 80%;
+    position: relative;
+    bottom: 0;
+    right: -750px;
+    top: -350px;
+}
+.img-box .pic
+{
+    position: relative;
+    top: 1cm;
+}
+.img-box .shape2
+{
+    position: relative;
+    top: -200px;
+   
+    
+}
+
