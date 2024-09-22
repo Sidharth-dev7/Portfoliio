@@ -7,10 +7,18 @@
     font-family: 'parisienne';
     src: url(Fonts/Parisienne/Parisienne-Regular.ttf);
 }
+@font-face {
+    font-family: 'Poppins';
+    src: url(Fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Noto';
+    src: url(Fonts/Noto_Sans/static/NotoSans-Regular.ttf);
+}
 
 .body
 {
-    background-image: linear-gradient(#264512,#2c6004);
+    background-image: linear-gradient(#1a2f0c,#2c6004);
     height: 24cm;
 }
 
@@ -41,10 +49,61 @@
 }
 .home
 {
-    width: 7cm;
+    font-family: 'Poppins';
+    font-size: large;
     position: relative;
     top: 6cm;
-    left: 4cm;
+    left: 3cm;
     color: white
 }
-
+.home h1{
+    font-size: 60px;
+}
+.highlight
+{
+    color: #1af23a;
+}
+.home button
+{
+    background-color: #1ac133;
+    padding: .25cm;
+    border: 2px solid #1ac133;
+    color: #1ac133;
+    border-radius: 8px;
+    border-color: #1ac133;
+    font-family: 'Questrial';
+    background: transparent;
+    font-weight: 650;
+}
+.home button:hover
+{
+    background-color: #1ac133;
+    color: #1a2f0c;
+}
+.icons
+{
+    position: relative;
+    top: 22px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.icons a
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #1ac133;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #1ac133;
+    text-decoration: none;
+}
+.icons a:hover
+{
+    background-color: #1ac133;
+    color: #1a2f0c;
+}
