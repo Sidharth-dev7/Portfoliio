@@ -23,15 +23,23 @@
     font-family: 'Rel';
     src: url(Fonts/Raleway-VariableFont_wght.ttf);
 }
-
+@font-face {
+    font-family: 'Edu';
+    src: url(Fonts/Sriracha-Regular.ttf);
+}
+ 
 
 .body
 {
     background-image: linear-gradient(#1a2f0c,#2c6004);
-    height: 50cm;
+    height: 70cm;
     overflow-x: hidden;
+}
+html
+{
     scroll-behavior: smooth;
 }
+
 
 .navigation
 {
@@ -160,7 +168,7 @@
     padding-top: 35px;
     font-family: 'Rock';
     position: relative;
-    top: -260px;
+    top: -250px;
     font-size: 42px;
 }
 .intro
@@ -173,4 +181,26 @@
     top: -200px;
     font-family: 'Rel';
 }
+.edu
+{
+    color: #1ac133;
+    font-family: 'edu';
+    position: relative;
+    left: 200px;
+    top: 150px;
+    font-size: 45px;   
+}
+.circle 
+{
+    height: 20px;
+    width: 20px;
+    background-color: #1ac133;
+    border-radius: 50%;
 
+}
+.line
+{
+    border-left: 5px #1ac133 solid;
+    height: 4cm;
+
+}
