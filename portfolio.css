@@ -204,16 +204,24 @@ html
 }
 .skill
 {
-    margin: auto; 
-    display: grid; 
-    grid-template-columns: auto auto auto auto ; 
-    gap: 100px; 
-    row-gap: 15px; 
-    justify-content: center;
+   position: relative;
+   right: 3.5cm;
+    width: 15cm;
+    padding: 1cm;
+    padding-bottom: 5cm;
 }
 .skilli
 {
     margin-top: 150px;
     width: 100px;
     height: 100px;
+}
+.cont
+{
+    position: relative;
+    right: 3cm;
+    padding-top: 3cm;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
 }
