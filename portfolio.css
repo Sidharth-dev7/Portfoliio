@@ -15,12 +15,22 @@
     font-family: 'Noto';
     src: url(Fonts/Noto_Sans/static/NotoSans-Regular.ttf);
 }
+@font-face {
+    font-family: 'Rock';
+    src: url(Fonts/Rock_Salt/RockSalt-Regular.ttf);
+}
+@font-face {
+    font-family: 'Rel';
+    src: url(Fonts/Raleway-VariableFont_wght.ttf);
+}
+
 
 .body
 {
     background-image: linear-gradient(#1a2f0c,#2c6004);
-    height: 40cm;
+    height: 50cm;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .navigation
@@ -127,7 +137,7 @@
     position: relative;
     bottom: 0;
     right: -750px;
-    top: -350px;
+    top: -390px;
 }
 .img-box .pic
 {
@@ -137,8 +147,30 @@
 .img-box .shape2
 {
     position: relative;
+    top: -200px;    
+}
+.aboutme
+{
+    border: 6px solid #1ac133;
+    height: 150px;
+    width: 300px;
+    color: #1ac133;
+    margin: auto;
+    text-align: center;
+    padding-top: 35px;
+    font-family: 'Rock';
+    position: relative;
+    top: -260px;
+    font-size: 42px;
+}
+.intro
+{
+    width: 20cm;
+    margin: auto; 
+    color: white;
+    font-size: 25px;
+    position: relative;
     top: -200px;
-   
-    
+    font-family: 'Rel';
 }
 
