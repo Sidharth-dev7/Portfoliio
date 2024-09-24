@@ -32,7 +32,7 @@
 .body
 {
     background-image: linear-gradient(#1a2f0c,#2c6004);
-    height: 100cm;
+    height: 105cm;
     overflow-x: hidden;
 }
 html
@@ -147,15 +147,32 @@ html
     right: -750px;
     top: -390px;
 }
+.circle1
+{
+    height: 420px;
+    width: 420px;
+    background-color: #1ac133;
+    border-radius: 50%;
+}
 .img-box .pic
 {
     position: relative;
     top: 1cm;
+    clip-path: circle(250px at 61% 41%);
 }
 .img-box .shape2
 {
     position: relative;
-    top: -200px;    
+    top: -200px;  
+    right: 300px;
+    mix-blend-mode: soft-light;  
+}
+.img-box .shape1
+{
+    position: relative;
+    right: -2cm;
+    mix-blend-mode: soft-light;
+    transform: rotate(-20deg);
 }
 .headings
 {
@@ -222,6 +239,6 @@ html
     right: 3cm;
     padding-top: 3cm;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'questrial';
     font-size: 30px;
 }
