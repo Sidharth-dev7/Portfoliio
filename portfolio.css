@@ -27,6 +27,10 @@
     font-family: 'Edu';
     src: url(Fonts/Sriracha-Regular.ttf);
 }
+@font-face {
+    font-family: 'Head';
+    src: url(Fonts/PlaypenSans-VariableFont_wght.ttf);
+}
  
 
 .body
@@ -177,13 +181,14 @@ html
 .headings
 {
     border: 6px solid #1ac133;
+    border-radius: 25%;
     height: 150px;
     width: 300px;
     color: #1ac133;
     margin: auto;
     text-align: center;
     padding-top: 35px;
-    font-family: 'Rock';
+    font-family: 'Head';
     font-size: 42px;
 }
 .intro
