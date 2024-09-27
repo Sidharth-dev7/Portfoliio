@@ -236,9 +236,28 @@ html
 .cont
 {
     position: relative;
-    right: 3cm;
-    padding-top: 3cm;
+    right: 2cm;
+    padding-top: 2cm;
     color: white;
     font-family: 'questrial';
-    font-size: 30px;
+    font-size: 20px;
+}
+.sub 
+{
+    background-color: #1ac133;
+    padding: .25cm;
+    border: 2px solid #1ac133;
+    color: #1ac133;
+    border-radius: 8px;
+    border-color: #1ac133;
+    font-family: 'Questrial';
+    background: transparent;
+    font-weight: 650;
+    font-size: 27px;
+    margin-top: 40px;
+}
+.sub:hover
+{
+    background-color: #1ac133;
+    color: #1a2f0c;
 }
